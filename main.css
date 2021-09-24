@@ -1,0 +1,66 @@
+html, body{
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ddd;
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.container{
+  width: 90%;
+  margin-inline: auto;
+}
+
+.form-wrapper{
+  width: 100%;
+  max-width: 992px;
+  background-color: #fff;
+  margin-inline: auto;
+  padding: 1rem;
+  border-radius: 6px;
+
+}
+
+.form-wrapper form .btn {
+  width: 120px;
+  height: 60px;
+  padding: 8px 10px;
+  background-color: teal;
+  color: #fff;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-wrapper .form-group{
+  margin-bottom: .75rem;
+}
+
+.form-wrapper .form-group label{
+  display: block;
+  margin-bottom: .65rem;
+}
+.form-wrapper .form-group input, textarea{
+  width: 100%;
+  padding: 8px 10px;
+  border: px solid #000;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-wrapper .form-group input{
+  height: 40px;
+}
